@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.number{
+    height: 30px;
+    width: 400px; 
+    padding-left: 10px;
+    padding: 15px;
+    outline: none;
+    border-radius: 12px;
+    border: 1px solid grey;
+    font-family: monospace;
+}
+form{
+    margin-top: 100px
+}
+.button{
+    background-color:  seagreen;
+    border: none;
+    height: 35px;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+p{
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 25px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border: 0.1px solid seagreen;
+    margin: 100px;
+    box-shadow: 10px 5px 5px seagreen;
+    padding: 50px;
+    background-color: whitesmoke;
+}
+.dob{
+    margin-top: 0px;
+
+}
+/* .findAge{
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid grey;
+} */

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Birth year</title>
+  </head>
+  <body>
+
+    <!-- <h1>FIND YOUR AGE </h1> -->
+    <div class="wrapper">
+      
+      <div class="findAge">
+        <center>
+          <form>
+            <input
+              placeholder="Type Your Age..."
+              type="number"
+              name="number"
+              id="number"
+              class="number"
+            />
+            <input type="button" value="Find Year" id="button" class="button" />
+            <center><p id="year">Year</p></center>
+          </form>
+        </center>
+      </div>
+
+      <div class="dob">
+        <center>
+          <form>
+            <h2>Date of Birth</h2>
+            <input  type="date"name="number"id="dob"class="number"  />
+          </form>
+
+          <!-- Age at the date of  -->
+          <form>
+            <h2>Age at the Date Of</h2>
+            <input
+              placeholder="Type Your Age..."
+              type="date"
+              name="number"
+              id="age-at-date-of"
+              class="number"
+            />
+            <input type="button" value="Find Age" id="find-age" class="button" />
+            <center> <p id="age"></p></center>
+          </form>
+        </center>
+      </div>
+    </div>
+
+    <script src="js/index.js" charset="utf-8"></script>
+    <script src="js/calcAge.js" charset="utf-8"></script>
+  </body>
+</html>
