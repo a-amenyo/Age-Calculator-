@@ -52,3 +52,16 @@ p{
     justify-content: center;
     border-right: 1px solid grey;
 } */
+/* Media queries  */
+@media screen and (max-width: 730px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr ;
+        border: 0.1px solid seagreen;
+        /* margin: 100px; */
+        box-shadow: 10px 5px 15px seagreen;
+        padding: 50px;
+        background-color: whitesmoke;
+    }
+
+}
